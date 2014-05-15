@@ -1,0 +1,15 @@
+name: TestPiston
+main: com.hotmail.susana_0901.testpiston.TestPiston
+version: 0.0.1-SNAPSHOT
+
+commands:
+   basic:
+      description: Comando de prueba.
+      usage: /<command> [player]
+      permission: TestPiston.*
+      permission-message: Tu no tienes <permission>
+      
+permissions:
+    TestPiston.*:
+        description: Gives access to all doorman commands
+        default: not op
